@@ -1,0 +1,136 @@
+/*Reset CSS*/
+*{
+    margin:  0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+li{
+    list-style-type: none;
+}
+li:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/*header*/
+header{
+    background-color: #8a2be2;
+    color: #fdfdfd; 
+    height:90px;
+}
+.header-logo {
+    float: left;
+    font-size: 36px;
+    padding: 20px 40px ;
+}
+.header-nav li{
+    float: left;
+    padding: 35px 20px;
+}
+/*Main/Content*/
+main{
+    padding: 100px 80px;    
+}
+.main-containeer h1{
+    font-size: 95px;
+}
+.main-containeer1 span{
+    color: blue;
+}
+.main-containeer span{
+    color: crimson;
+}
+.main-containeer {
+    color: green;
+}
+.main-containeer1 {
+    color: purple;
+}
+.main-containeer h2{
+    font-size: 60px;
+}
+/* bagian content*/
+.contents{
+    height:500px;
+    margin-top: 100px;
+}
+.section-title{
+    border-bottom: 2px solid darkslategray;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+}
+.contents-item{
+    float: left;
+    margin-right: 40px;
+}
+.contents-img{
+    width: 220px;
+    height: 220px;
+    padding: 10px;
+    background-color: crimson;
+
+}
+.contents-img.htmlcss{
+    background-color: hsl(180, 14%, 95%);
+}
+.contents-img.php{
+    background-color: hsl(180, 76%, 33%);
+}
+.contents-img.java{
+    background-color: rgb(113, 17, 202);
+}
+.contents-img.python{
+    background-color: #112dca;
+}
+.contents-img img{
+    width: 220px;    
+}
+
+
+.contents-item p{
+    font-size: 24px;
+    margin-top: 30px;
+    text-align: center;
+}
+/*bagian Contact*/
+.contact{
+    padding top : 100px; 
+}
+input,textarea{
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid hsl(335, 76%, 53%);
+
+}
+.contact-submit{
+    background-color: chartreuse;
+    color: cornsilk;
+    cursor: pointer;
+}
+.txt-red{
+    color: crimson;
+}
+/*footer*/
+footer{
+    background-color: #8a2be2;
+    color: #fdfdfd;
+    padding: 20px 40px;
+    height: 30px;
+
+}
+.footer-logo   {
+    float: left;
+    font-size: 30px;
+}
+.footer-nav{
+    float: right;
+}
+.footer-nav li{
+    padding: 10px 20px;
+    float:left;
+}
